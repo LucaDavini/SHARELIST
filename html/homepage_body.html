@@ -1,0 +1,65 @@
+<section id="sec0" class="container">
+    <div class="split">
+        <div>
+            <h2>Organizza la tua Spesa Condivisa!</h2>
+            <button id="signIn" onclick="window.location.href= '../php/sign_in.php'"> Registrati </button>
+        </div>
+        <div>
+            <img src="../images/supermercati.jpg" alt="ragazza che fa la spesa">
+        </div>
+    </div>
+</section>
+
+ <section id="sec1" class="container">
+    <div class="split">
+       <div>
+            <img src="../images/carrellopieno.jpg" alt="carrello pieno">
+        </div>
+        <div>
+            <h2> Lo Sapevi? </h2>
+            <div id="curiosity">
+                <p onclick="changeCuriosity('L')"> &lt; </p>
+                <p>
+                    Una lista della spesa ben fatta riduce gli sprechi – perchè compri solo quello che effettivamente mangerai – e nel lungo periodo permette un consistente risparmio sulla spesa alimentare.
+                </p>
+                <p onclick="changeCuriosity('R')"> &gt; </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sec2" class="container">
+    <div class="split">
+        <div id="first-row">
+            <div>
+                <img src="../images/list.png" alt="lista">
+                <h3>Crea una lista della spesa ordinata!</h3>
+            </div>
+            <div>
+                <img src="../images/achievements.png" alt="medaglia">
+                <h3>Ottieni premi per il tuo impegno!</h3>
+            </div>
+            <div>
+                <img src="../images/clock.png" alt="orologio">
+                <h3>Riduci il tempo che impieghi a fare la spesa!</h3>
+            </div>
+        </div>
+        <div id="second-row">
+            <div>
+                <img src="../images/share.png" alt="condivisione">
+                <h3>Condividi la tua lista con chi vuoi!</h3>
+            </div>
+            <div>
+                <img src="../images/waste.png" alt="cestino">
+                <h3>Riduci gli sprechi e risparmia!</h3>
+            </div>
+        </div>
+        <p id="desc">
+            L'idea di ShareList nasce dal bisogno di una famiglia di organizzare la spesa, per non dimenticarsi
+            le necessità o le richieste dei vari membri. Nasce inoltre durante il periodo di CoronaVirus, in cui è
+            importante limitare il numero di volte in cui si va al supermercato, aumentando l'importanza di una spesa organizzata.
+            ShareList permette di condividere una lista della spesa, dando la possibilità a più persone di aggiungere ciò che ognuno desidera. Al momento della spesa, la possibilità di aggiungere viene bloccata, permettendo alla persona che si è presa l'incarico di avere una lista precisa, ordinata per macroargomenti (frutta, carne, pasta). ShareList si preoccupa anche di incentivare chi va a fare la spesa, distribuendo riconoscimenti a chi si impegna maggiormente, in modo da evitare che "sia sempre la mamma a fare la spesa".
+        </p>
+        <span id="descVisualizer" onclick="showDesc()">Visualizza Descrizione</span>
+    </div>
+</section>

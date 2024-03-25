@@ -1,0 +1,76 @@
+.form_container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_container div {
+    margin: auto;
+    padding: 2%;
+    width: 30%;
+    max-height: 80%;
+
+    border-radius: 20px;
+    background-color: rgb(250, 255, 203);
+}
+
+.form_container div>a {
+    float: right;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    margin: auto;
+    width: 50%;
+
+    border-radius: 10px;
+    line-height: 200%;
+    font-family: Neucha;
+    outline: 0;
+}
+
+.err_message {
+    margin-top: 0;
+    margin-bottom: 2%;
+
+    color: rgb(216, 71, 71);
+    font-size: smaller;
+    text-align: center;
+}
+
+#submit_btn {
+    min-width: 25%;
+    cursor: pointer;
+    outline: 0;
+
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* FOR SMALLER SCREENS */
+@media (max-height: 400px), (max-width: 550px) {
+    .form_container {
+        position: fixed;
+    }
+
+    .form_container div {
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+    #submit_btn {
+        width: 50%;
+    }
+}
