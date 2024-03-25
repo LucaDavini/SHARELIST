@@ -1,0 +1,175 @@
+/* GENERAL */
+html {
+    scroll-behavior: smooth;
+    font-family: Neucha;
+}
+
+body {
+    margin: 0;
+    background-image: url("../images/sfondoHome.jpg");
+    background-size: cover;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(173, 255, 50, 0.9);
+}
+
+#navbar ul li {
+    display: inline;
+    white-space: pre-wrap;
+
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+/* CONTAINERS */
+.container {
+    margin: 2% auto;
+    width: 80%;
+}
+
+.split {
+    padding: 2% 0;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.split div {
+    flex-basis: 100%;
+    margin: 2%;
+    text-align: center;
+}
+
+.split img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+/* FIRST CONTAINER */
+#sec0 .split {
+    background-color: rgb(250, 255, 203, 0.9);
+}
+
+#signIn {
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 50px;
+
+    font-family: Neucha;
+    font-size: larger;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: 0;
+}
+
+#signIn:hover {
+    color: rgb(250, 255, 203, 0.9);
+    background-color: black;
+    border-color: rgb(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+/* SECOND CONTAINER */
+#sec1 .split {
+    background-color: rgb(206, 247, 140, 0.9);
+}
+
+#curiosity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#curiosity p:nth-child(2n+1) {
+    font-size: xx-large;
+}
+
+#curiosity p:nth-child(2n+1):hover {
+    cursor: pointer;
+}
+
+/* THIRD CONTAINER */
+#sec2 .split {
+    background-color: rgb(250, 255, 203, 0.9);
+    display: block;
+    text-align: center;
+}
+
+#sec2 .split div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec2 img {
+    max-width: 20%;
+    border-radius: 0;
+}
+
+#desc {
+    display: none;
+    width: 80%;
+    margin: auto;
+    opacity: 70%;
+}
+
+#descVisualizer {
+    text-decoration: underline;
+}
+
+#descVisualizer:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(173, 255, 50, 0.9);
+}
+
+#contactUs li {
+    list-style-type: none;
+}
+
+#contactUs li:first-child {
+    line-height: 200%;
+}
+
+#documentation {
+    text-align: center;
+    margin: 1% 0;
+}
+
+#documentation p {
+    margin: 0;
+}
+
+#documentation img {
+    width: 30%;
+    height: 30%;
+}
+
+#documentation p:hover, #documentation img:hover {
+    font-weight: bold;
+
+    cursor: pointer;
+}

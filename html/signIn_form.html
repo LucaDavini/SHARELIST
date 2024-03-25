@@ -1,0 +1,30 @@
+<section class="form_container">
+	<div>
+		<a href="./index.php"> X </a>
+		<form id="signIn_form" action="../php/sign_in.php" method="post" onsubmit="formValidation(event)">
+			<h3>Registrati</h3>
+
+			<input name="first_name" type="text" placeholder="Nome"></input>
+			<p class="err_message"></p>
+
+			<input name="last_name" type="text" placeholder="Cognome"></input>
+			<p class="err_message"></p>
+
+			<input name="username" type="text" placeholder="Username"></input>
+			<p class="err_message"></p>
+
+			<input name="password" type="password" placeholder="Password"></input>
+			<p class="err_message"></p>
+
+			<input name="conf_password" type="password" placeholder="Conferma Password"></input>
+			<p class="err_message"></p>
+
+			<input id="submit_btn" name="sign_in" type="submit" value="Registrati"></input>
+
+			<p>
+				Sei già registrato? <a href="../php/login.php"> Accedi </a>
+			</p>
+
+		</form>
+	</div>
+</section>
