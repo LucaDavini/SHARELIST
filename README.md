@@ -18,3 +18,7 @@ With ShareList, users can easily collaborate on creating, updating, and managing
   🛡️ **User Authentication:** Secure user authentication system with a simple signup process, requiring minimal personal information.  
     
   📱 **Responsive Design:** ShareList works on both desktop and mobile devices.
+
+##
+*This application was developed as a Web Development exam project.*  
+*Available at [https://sharelist.altervista.org/](https://sharelist.altervista.org/).*
